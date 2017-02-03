@@ -1,0 +1,97 @@
+* {
+	background-color: #f7fbfe !important;
+}
+
+.header-logo {
+	width: 200px;
+	height: auto;
+}
+
+.navbar .navbar-nav {
+	display: inline-block !important;
+	float: none !important;
+	vertical-align: top !important;
+}
+
+.navbar .navbar-collapse {
+	text-align: center !important;
+}
+
+.welcome {
+	margin-top: 60px;
+	text-align: center;
+	font-family: 'Mitr', sans-serif;
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+button {
+	font-family: 'Mitr', sans-serif;
+	background-color: #d9dadb !important;
+	color: #fff !important;
+	border-radius: 999px !important;
+	border-color: #d9dadb !important;
+	font-size: 2.25rem !important;
+	margin-top: 25px;
+	padding: 10px 30px !important;
+}
+
+.foster {
+	color: #059bff;
+}
+
+.pawprint {
+	color: #e59d00;
+}
+
+nav {
+	font-family: 'Architects Daughter', cursive;
+	border: none !important;
+}
+
+nav a {
+	color: #e59d00 !important;
+	font-size: 3rem;
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+	text-align: center;
+	margin-top: 22px;
+}
+
+.header-logo-li a {
+	margin-top: auto !important;
+}
+
+.footer-dog {
+	width: 100%;
+	height: auto;
+}
+
+.navigation {
+	border: none !important;
+	background-color: #f7fbfe !important;
+	padding: 0px !important;
+}
+
+.navigation:active {
+	box-shadow: none;
+}
+
+.navigation a {
+	color: #e59d00 !important;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 3rem;
+}
+
+.navigation-buttons > button {
+    display: inline-block;
+    zoom: 1; /* Trigger hasLayout */
+    width: 15%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+	.navigation-buttons > button {
+	    display: block !important;
+	}
+}
